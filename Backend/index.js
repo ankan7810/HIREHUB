@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: ["https://hirehub-backend-1.onrender.com"],
+  origin: ["https://hirehub-frontend-9ks8.onrender.com"],
   credentials: true,
 };
 
